@@ -1,0 +1,363 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Poppins:wght@700&display=swap') */
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(images/main\ page.jpg);
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+}
+
+.main .box {
+
+    height: 95vh;
+    opacity: 0.2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+
+}
+
+.box nav {
+    height: 62px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.box nav .button {
+    margin: 12px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+.button1 {
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.1px solid white;
+    color: white;
+    margin: 40px;
+
+
+
+
+}
+
+.button .button2 {
+    width: 80px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 20;
+
+}
+
+.text {
+    font-family: "Martel", serif;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 29px;
+    gap: 23px;
+    text-align: center;
+
+
+}
+
+.text> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Martel", serif;
+
+
+
+}
+
+.text :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Martel", serif;
+}
+
+
+.email input {
+    font-family: "Poppins", sans-serif;
+    height: 50px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.63);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    font-size: medium;
+    font-display: middle;
+    margin: 10px;
+}
+
+.email button {
+    height: 55px;
+    width: 200px;
+    color: white;
+    background-color: red;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.separation {
+    height: 9px;
+    background-color: rgb(48, 47, 47);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    color: white;
+    max-width: 70vw;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+}
+
+.sec-img {
+    position: relative;
+}
+
+.sec-img img {
+    width: 30vw;
+    position: absolute;
+    z-index: 10;
+
+
+
+}
+
+.line {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.line h1 {
+    font-size: 48px;
+
+
+}
+
+.line h2 {
+    font-size: 20px;
+    font-family: "Martel", serif;
+    font-weight: 100;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    color: white;
+    max-width: 70vw;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+}
+
+.Frequently {
+
+    height: 110vh;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+
+.Frequently h1 {
+    font-size: 48px;
+}
+
+.faqbox {
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(39, 38, 38);
+    transition: all 1s ease-out;
+
+
+
+    align-items: center;
+    display: flex;
+    margin: 14px auto;
+    max-width: 60vw;
+    height: 50px;
+    justify-content: space-between;
+    padding: 14px;
+    color: white;
+
+
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+
+.ans {
+    font-weight: 100;
+    font-size: 15px;
+    background-color: rgb(39, 38, 38);
+    align-items: left;
+    margin: 14px auto;
+    max-width: 60vw;
+    display: none; /* Start with display none */
+    overflow: hidden; /* Hide overflow content */
+    padding: 10px;
+    color: white;
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+
+.Frequently .ans span {
+    font-family: "Martel", serif;
+}
+
+.Frequently :hover {
+    background-color: rgb(71, 69, 69);
+
+
+
+}
+
+.Frequently .faqbox span {
+    font-family: "Martel", serif;
+}
+
+.Frequently .text2 {
+
+
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 29px;
+    gap: 23px;
+    text-align: center;
+
+
+
+}
+
+footer {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 22px;
+
+    max-width: 70vw;
+    margin: auto;
+    text-align: left;
+
+
+
+}
+
+footer .Questions {
+
+    padding: 40px;
+
+
+
+}
+
+.foo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 13px;
+    margin: 23px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+
+
+
+
+}
+
+.footer-items a {
+    margin: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+
+
+
+}
+
+#dog-names {
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.1px solid white;
+    color: white;
+    margin: 40px;
+}
+
+#dog-names option {
+    background-color: white;
+
+    color: rgb(0, 0, 0);
+
+}
+
+#dog-names select option:hover {
+    background-color: blue;
+    color: white;
+    /* Change text color on hover if desired */
+}
+
+
+
+.final {
+    margin: 40px;
+}
